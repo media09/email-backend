@@ -3,15 +3,24 @@
   "version": "1.0.0",
   "main": "sendVerification.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node sendVerification.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
     "nodemailer": "^7.0.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/media09/email-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/media09/email-backend/issues"
+  },
+  "homepage": "https://github.com/media09/email-backend#readme",
+  "description": ""
 }
